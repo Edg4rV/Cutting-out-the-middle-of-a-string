@@ -1,4 +1,9 @@
-Scanner scanner = new Scanner(System.in);
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
 	String input = scanner.nextLine();
 	int length = input.length();
 	String firstPart = "";
@@ -16,3 +21,5 @@ Scanner scanner = new Scanner(System.in);
 	    secondPart = input.substring((length / 2) + 2, length);
         System.out.println(firstPart + secondPart);
     }
+    }
+}
