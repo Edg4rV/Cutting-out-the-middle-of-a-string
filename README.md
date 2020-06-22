@@ -1,0 +1,1 @@
+# Cutting-out-the-middle-of-a-string
